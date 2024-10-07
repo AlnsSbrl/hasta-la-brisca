@@ -1,0 +1,43 @@
+[gd_scene load_steps=5 format=3 uid="uid://dkkytpqa6m3s1"]
+
+[ext_resource type="Script" path="res://Code/MenuScenes/MainMenu.cs" id="1_46s8u"]
+[ext_resource type="Texture2D" uid="uid://d0ayfj7yelyvi" path="res://Assets/Sprites/MenuScenes/BACKGROUND_MAIN_MENU.png" id="1_b0sln"]
+[ext_resource type="PackedScene" uid="uid://cwmmvvh3yn5qq" path="res://Assets/Scenes/MenuScenes/MainMenu/MainMenuButton.tscn" id="2_d23w6"]
+[ext_resource type="AudioStream" uid="uid://dqwxrwqdqvvh4" path="res://Assets/Music/MenuScenes/Baiuca-Cortegada.mp3" id="3_kawqs"]
+
+[node name="MainMenu" type="Node2D"]
+script = ExtResource("1_46s8u")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+show_behind_parent = true
+position = Vector2(575.25, 326)
+scale = Vector2(2.24121, 1.91789)
+texture = ExtResource("1_b0sln")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+offset_left = 404.0
+offset_top = 98.0
+offset_right = 755.0
+offset_bottom = 521.0
+alignment = 1
+
+[node name="Play" parent="VBoxContainer" instance=ExtResource("2_d23w6")]
+layout_mode = 2
+text = "PLAY"
+
+[node name="Options" parent="VBoxContainer" instance=ExtResource("2_d23w6")]
+layout_mode = 2
+text = "OPTIONS"
+
+[node name="Quit" parent="VBoxContainer" instance=ExtResource("2_d23w6")]
+layout_mode = 2
+text = "QUIT
+"
+
+[node name="Music" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_kawqs")
+autoplay = true
+
+[connection signal="pressed" from="VBoxContainer/Play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="VBoxContainer/Options" to="." method="_on_options_pressed"]
+[connection signal="pressed" from="VBoxContainer/Quit" to="." method="_on_quit_pressed"]

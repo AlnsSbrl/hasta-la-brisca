@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://dta0ait730225"]
+
+[ext_resource type="Script" path="res://Code/GameScenes/Brisca/BriscaScene.cs" id="1_5hj5r"]
+[ext_resource type="Texture2D" uid="uid://dmt8jalutpyoe" path="res://Assets/Sprites/GameScenes/TAPETE.jpg" id="2_ru4sy"]
+[ext_resource type="Texture2D" uid="uid://uh108jipgdt" path="res://Assets/Sprites/Dorsos/DORSO_BASICO.png" id="3_aqw5h"]
+
+[node name="BriscaScene" type="Node2D"]
+script = ExtResource("1_5hj5r")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(576.75, 322.75)
+scale = Vector2(1.90165, 1.68799)
+texture = ExtResource("2_ru4sy")
+
+[node name="TextureButton" type="TextureButton" parent="."]
+offset_left = 509.0
+offset_top = 230.0
+offset_right = 549.0
+offset_bottom = 287.0
+scale = Vector2(2, 2)
+texture_normal = ExtResource("3_aqw5h")
+stretch_mode = 0
+
+[connection signal="pressed" from="TextureButton" to="." method="_on_texture_button_pressed"]

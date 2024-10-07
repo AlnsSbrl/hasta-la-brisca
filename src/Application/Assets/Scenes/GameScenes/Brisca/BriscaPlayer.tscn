@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://cyfum8ul7xby"]
+
+[ext_resource type="PackedScene" uid="uid://b4avdmcuta3cr" path="res://Assets/Scenes/GameScenes/Carta.tscn" id="1_8283q"]
+
+[node name="BriscaPlayer" type="Node2D"]
+
+[node name="ItemList" type="ItemList" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="CardOne" parent="ItemList" instance=ExtResource("1_8283q")]
+
+[node name="CardThree" parent="ItemList" instance=ExtResource("1_8283q")]
+
+[node name="CardTwo" parent="ItemList" instance=ExtResource("1_8283q")]

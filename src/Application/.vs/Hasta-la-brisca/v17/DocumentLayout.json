@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alons\\Documents\\GitHub\\hasta-la-brisca\\src\\Application\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{56B6418D-D1BB-421B-AFFA-BC5BB501A11A}|..\\..\\tests\\hasta-la-brisca-testing\\hasta-la-brisca-testing.csproj|c:\\users\\alons\\documents\\github\\hasta-la-brisca\\tests\\hasta-la-brisca-testing\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56B6418D-D1BB-421B-AFFA-BC5BB501A11A}|..\\..\\tests\\hasta-la-brisca-testing\\hasta-la-brisca-testing.csproj|c:\\users\\alons\\documents\\github\\hasta-la-brisca\\tests\\hasta-la-brisca-testing\\hasta-la-brisca-testing.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB8024EA-BCDB-4622-B2AF-FA4123CDDFEC}|Hasta-la-brisca.csproj|c:\\users\\alons\\documents\\github\\hasta-la-brisca\\src\\application\\code\\carta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB8024EA-BCDB-4622-B2AF-FA4123CDDFEC}|Hasta-la-brisca.csproj|solutionrelative:code\\carta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB8024EA-BCDB-4622-B2AF-FA4123CDDFEC}|Hasta-la-brisca.csproj|c:\\users\\alons\\documents\\github\\hasta-la-brisca\\src\\application\\code\\barajas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB8024EA-BCDB-4622-B2AF-FA4123CDDFEC}|Hasta-la-brisca.csproj|solutionrelative:code\\barajas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "hasta-la-brisca-testing",
+              "DocumentMoniker": "C:\\Users\\alons\\Documents\\GitHub\\hasta-la-brisca\\tests\\hasta-la-brisca-testing\\hasta-la-brisca-testing.csproj",
+              "RelativeDocumentMoniker": "..\\..\\tests\\hasta-la-brisca-testing\\hasta-la-brisca-testing.csproj",
+              "ToolTip": "C:\\Users\\alons\\Documents\\GitHub\\hasta-la-brisca\\tests\\hasta-la-brisca-testing\\hasta-la-brisca-testing.csproj",
+              "RelativeToolTip": "..\\..\\tests\\hasta-la-brisca-testing\\hasta-la-brisca-testing.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-07T01:56:28.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Barajas.cs",
+              "DocumentMoniker": "C:\\Users\\alons\\Documents\\GitHub\\hasta-la-brisca\\src\\Application\\Code\\Barajas.cs",
+              "RelativeDocumentMoniker": "Code\\Barajas.cs",
+              "ToolTip": "C:\\Users\\alons\\Documents\\GitHub\\hasta-la-brisca\\src\\Application\\Code\\Barajas.cs",
+              "RelativeToolTip": "Code\\Barajas.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAgwAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T01:37:28.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Carta.cs",
+              "DocumentMoniker": "C:\\Users\\alons\\Documents\\GitHub\\hasta-la-brisca\\src\\Application\\Code\\Carta.cs",
+              "RelativeDocumentMoniker": "Code\\Carta.cs",
+              "ToolTip": "C:\\Users\\alons\\Documents\\GitHub\\hasta-la-brisca\\src\\Application\\Code\\Carta.cs",
+              "RelativeToolTip": "Code\\Carta.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T01:33:07.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\alons\\Documents\\GitHub\\hasta-la-brisca\\tests\\hasta-la-brisca-testing\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "..\\..\\tests\\hasta-la-brisca-testing\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\alons\\Documents\\GitHub\\hasta-la-brisca\\tests\\hasta-la-brisca-testing\\UnitTest1.cs",
+              "RelativeToolTip": "..\\..\\tests\\hasta-la-brisca-testing\\UnitTest1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T01:31:36.254Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

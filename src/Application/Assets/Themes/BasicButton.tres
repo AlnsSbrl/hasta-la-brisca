@@ -1,0 +1,37 @@
+[gd_resource type="Theme" load_steps=5 format=3 uid="uid://bjqfk6bgi4gb4"]
+
+[ext_resource type="FontFile" uid="uid://b48y0w25tky4x" path="res://Assets/Fonts/Porky.ttf" id="1_iviaa"]
+[ext_resource type="StyleBox" uid="uid://bmoldb8lfegnk" path="res://Assets/Themes/BasicButtonHover.tres" id="2_a5m5s"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_u84ho"]
+bg_color = Color(0.594591, 0.548067, 0.931359, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.251678, 0.170324, 0.526944, 1)
+border_blend = true
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_55v82"]
+bg_color = Color(0.225983, 0.151975, 0.478976, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.251678, 0.170324, 0.526944, 1)
+border_blend = true
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[resource]
+Button/font_sizes/font_size = 40
+Button/fonts/font = ExtResource("1_iviaa")
+Button/styles/hover = SubResource("StyleBoxFlat_u84ho")
+Button/styles/normal = ExtResource("2_a5m5s")
+Button/styles/pressed = SubResource("StyleBoxFlat_55v82")
